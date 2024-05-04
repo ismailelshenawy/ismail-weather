@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cruds</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="w-75 m-auto">
+        <input
+          type="text"
+          placeholder="Enter your city"
+          onkeyup="searchCityName(value)"
+          class="bg-info w-75"
+          id="search_city"
+        />
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+      <div id="weatherBody">
+        <h3>name countryاسم البلد</h3>
+        <h3>temp-cel درجة الحرارة</h3>
+        <h3>حالة الطقس مشمس</h3>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/news.js"></script>
+  </body>
+</html>
